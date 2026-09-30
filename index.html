@@ -335,6 +335,9 @@
   .work-body h3{font-size:clamp(22px,2.6vw,28px);}
   .work-body p{font-size:14.5px;}
   .work-tagline{font-family:'Newsreader',serif;font-style:italic;font-size:15px;color:var(--ink-soft);}
+  .work-highlights{margin-top:4px;}
+  .work-highlights .wh-label{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;display:block;}
+  .work-highlights .wh-list{font-size:13.5px;color:var(--ink-soft);line-height:1.8;}
 
   /* ---------- Built for Contractors (outcome strip) ---------- */
   .outcomes{background:var(--ink);color:#fff;}
@@ -535,7 +538,7 @@
     </nav>
     <div class="header-right">
       <a href="#contact" class="nav-cta">
-        Get Your Free Website Plan
+        Build Your Website
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
       <button class="menu-btn" aria-label="Menu">☰</button>
@@ -618,10 +621,13 @@
           <span class="work-media-tag">Featured Project</span>
         </div>
         <div class="work-body">
-          <span class="eyebrow">Niagara Builders</span>
-          <h3>Custom contractor website designed to showcase projects and establish credibility.</h3>
-          <p>A waterfront custom-home builder needed a site that could carry real project photography and read as established, not templated. We built a project gallery, a clear services breakdown, and a quote request path built around how homeowners actually decide who to hire.</p>
-          <p class="work-tagline">"The kind of site that makes a homeowner comfortable handing over a six-figure project."</p>
+          <span class="eyebrow">Featured Project — Niagara Builders</span>
+          <h3>Custom contractor website built to showcase their work and strengthen their online presence.</h3>
+          <p>Niagara Builders needed a website that reflected the quality of their custom homes and gave potential clients a better way to explore their work. We built a professional, project-focused site featuring their services, completed projects, and a clear path for prospective clients to get in touch.</p>
+          <div class="work-highlights">
+            <span class="wh-label">Project Highlights</span>
+            <span class="wh-list">Custom Design &bull; Project Gallery &bull; Service Pages &bull; Mobile Optimization &bull; Contact &amp; Quote Forms</span>
+          </div>
         </div>
       </div>
     </div>
@@ -688,7 +694,6 @@
   <section class="outcomes">
     <div class="wrap">
       <div class="sec-head">
-        <span class="eyebrow">Built for the way contractors do business</span>
         <h2>Built for the way contractors do business.</h2>
       </div>
       <div class="outcomes-grid">
@@ -766,7 +771,7 @@
         <div class="price-card">
           <div class="pkg-name">Basic</div>
           <div class="price-tag"><span class="amt">$799</span><span class="unit">one-time</span></div>
-          <p class="best-for">Building credibility &amp; attracting customers.</p>
+          <p class="best-for">Establishing a professional online presence and showcasing your projects.</p>
           <ul>
             <li><span class="chk">✓</span>Custom-designed website &amp; homepage</li>
             <li><span class="chk">✓</span>Services page, gallery &amp; testimonials</li>
@@ -774,6 +779,7 @@
             <li><span class="chk">✓</span>Mobile-friendly design</li>
             <li><span class="chk">✓</span>Social media links</li>
             <li><span class="chk">✓</span>Domain setup &amp; launch</li>
+            <li><span class="chk">✓</span>30-day post-launch support</li>
           </ul>
           <a href="#contact" class="btn btn-ghost">Start with Basic</a>
         </div>
@@ -783,7 +789,7 @@
           <div class="pkg-name">Pro</div>
           <div class="price-tag"><span class="amt">$749</span><span class="unit">one-time</span></div>
           <div class="mo-tag">+ $100/mo<br>1-year service plan</div>
-          <p class="best-for">Maintaining a professional online presence &amp; keeping customers up to date.</p>
+          <p class="best-for">Maintaining a professional online presence and keeping your business up to date.</p>
           <ul>
             <li><span class="chk">✓</span>Everything in Basic</li>
             <li><span class="chk">✓</span>Basic on-page SEO setup</li>
@@ -799,7 +805,7 @@
           <div class="pkg-name">Premium</div>
           <div class="price-tag"><span class="amt">$1,249</span><span class="unit">one-time</span></div>
           <div class="mo-tag">+ $200/mo<br>1-year service plan</div>
-          <p class="best-for">Maximizing visibility &amp; driving consistent business growth.</p>
+          <p class="best-for">Improving local visibility &amp; growing your online presence.</p>
           <ul>
             <li><span class="chk">✓</span>Everything in Pro</li>
             <li><span class="chk">✓</span>Local SEO optimization &amp; keyword research</li>
@@ -828,6 +834,16 @@
             <li>Cross-browser &amp; mobile compatibility guaranteed</li>
             <li>Free re-check if a page stops working correctly</li>
           </ul>
+        </div>
+      </div>
+
+      <div class="warranty" style="margin-top:20px;">
+        <div class="warranty-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20 15.3 15.3 0 010-20z"/></svg>
+        </div>
+        <div>
+          <h3>Domain Registration &amp; Management</h3>
+          <p>Every NSD Digital website includes domain registration and setup. If you don't already own a domain, we'll help you select, register, and connect one standard domain name — and we cover domain registration costs up to $25 per year. Any cost above $25, including premium, aftermarket, or specialty domains, is the client's responsibility. If you already own a domain, we'll connect and configure your existing domain as part of the website setup.</p>
         </div>
       </div>
     </div>
@@ -862,6 +878,10 @@
           <p>For 30 days after launch, any bug, broken link, or page that isn't working the way it was scoped gets fixed at no charge. It covers our workmanship — it doesn't cover new features or scope changes.</p>
         </details>
         <details>
+          <summary>What happens if I decide not to renew my service plan? <span class="plus">+</span></summary>
+          <p>Your website and domain remain yours. If you choose not to renew after your initial service term, we'll help transition your website and domain management to you or your new provider. After the transition, you'll be responsible for hosting, domain renewals, maintenance, and any ongoing services previously provided by NSD Digital.</p>
+        </details>
+        <details>
           <summary>Do you only work with local businesses? <span class="plus">+</span></summary>
           <p>We specialize in websites for contractors, but we work with businesses across other industries too. If you need a professional website, we can help.</p>
         </details>
@@ -873,8 +893,8 @@
   <section class="contact" id="contact">
     <div class="wrap split">
       <div class="split-text">
-        <span class="eyebrow">Get in touch</span>
-        <h2>Tell us about your business.</h2>
+        <span class="eyebrow">Ready to Build Your Website?</span>
+        <h2>Tell us about your business. We'll take care of the rest.</h2>
         <p class="contact-lede">Fill out the form, or reach out directly — we'll follow up within a business day to talk through what your site needs to do.</p>
         <div class="contact-points">
           <div class="cp">
@@ -945,7 +965,7 @@
 </footer>
 
 <div class="sticky-cta">
-  <a href="#contact" class="btn btn-solid">Get Your Free Website Plan</a>
+  <a href="#contact" class="btn btn-solid">Build Your Website</a>
 </div>
 
 <script>
