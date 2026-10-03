@@ -208,16 +208,18 @@
   .hero-devices{position:relative;min-height:380px;}
   .device-laptop{
     position:relative;width:100%;border-radius:12px 12px 4px 4px;overflow:hidden;
-    box-shadow:0 40px 80px rgba(0,0,0,0.5);border:7px solid #E8EAEF;background:#E8EAEF;
+    box-shadow:0 40px 80px rgba(0,0,0,0.5);
+    border:7px solid #B9BDC6;
+    background:linear-gradient(155deg,#E2E4E9,#AFB3BC 45%,#CDD0D7 55%,#9CA0AA);
   }
   .device-laptop img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;}
   .device-laptop-base{
-    height:13px;background:linear-gradient(180deg,#D8DAE0,#AEB1BA);
+    height:13px;background:linear-gradient(180deg,#C7CAD2,#8E929C);
     border-radius:0 0 8px 8px;margin:0 -10px;position:relative;top:-1px;
     box-shadow:0 6px 14px rgba(0,0,0,0.3);
   }
   .device-phone{
-    position:absolute;right:-6%;bottom:-14%;width:38%;
+    position:absolute;right:-13%;bottom:-14%;width:38%;
     border-radius:30px;overflow:hidden;border:7px solid #0E1220;background:#0E1220;
     box-shadow:0 30px 60px rgba(0,0,0,0.55);
   }
@@ -236,7 +238,8 @@
   .logo-strip .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px;}
   .logo-strip-label{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);white-space:nowrap;}
   .logo-strip-logos{display:flex;align-items:center;gap:32px;flex-wrap:wrap;}
-  .client-logo{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:16px;color:var(--ink-soft);letter-spacing:-0.01em;opacity:0.75;}
+  .client-logo{display:inline-flex;align-items:center;gap:9px;font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:16px;color:var(--ink-soft);letter-spacing:-0.01em;opacity:0.8;}
+  .client-logo svg{flex:none;color:var(--ink-soft);}
   .logo-strip-badges{display:flex;gap:20px;flex-wrap:wrap;}
   .strip-badge{display:flex;align-items:center;gap:8px;}
   .strip-badge-icon{width:34px;height:34px;border-radius:999px;background:var(--accent-tint);border:1px solid #D7E0FB;display:flex;align-items:center;justify-content:center;color:var(--accent);flex:none;}
@@ -520,7 +523,7 @@
     </nav>
     <div class="header-right">
       <a href="#contact" class="nav-cta">
-        Book a Free Consultation
+        Start Your Project
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
       <button class="menu-btn" aria-label="Menu">☰</button>
@@ -539,7 +542,7 @@
         <h1>A website that builds your business.</h1>
         <p class="lede">Custom websites built to showcase your work, strengthen credibility, and turn more visitors into real opportunities.</p>
         <div class="hero-ctas">
-          <a href="#contact" class="btn btn-solid">Book a Free Consultation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a href="#contact" class="btn btn-solid">Start Your Project <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           <a href="#work" class="btn btn-ghost">See Our Work</a>
         </div>
         <div class="hero-points">
@@ -586,8 +589,8 @@
     <div class="wrap">
       <span class="logo-strip-label">Trusted by contractors &amp; home service businesses</span>
       <div class="logo-strip-logos">
-        <span class="client-logo">NIAGARA BUILDERS</span>
-        <span class="client-logo">AMERICAN BAT REMOVAL</span>
+        <span class="client-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1V10"/></svg>NIAGARA BUILDERS</span>
+        <span class="client-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3c-1.5 1.5-2 3-2 4.5 0 1 .3 1.8.8 2.5-2.2.3-4.3 1.6-5.8 3.5-1 .2-1.8.8-2 1.5 1 .2 2-.1 2.8-.7.5 1.2 1.4 2.3 2.7 2.9-.3.6-.3 1.3 0 1.8.7-.2 1.3-.7 1.6-1.3.6.2 1.2.3 1.9.3s1.3-.1 1.9-.3c.3.6.9 1.1 1.6 1.3.3-.5.3-1.2 0-1.8 1.3-.6 2.2-1.7 2.7-2.9.8.6 1.8.9 2.8.7-.2-.7-1-1.3-2-1.5-1.5-1.9-3.6-3.2-5.8-3.5.5-.7.8-1.5.8-2.5 0-1.5-.5-3-2-4.5z"/></svg>AMERICAN BAT REMOVAL</span>
       </div>
       <div class="logo-strip-badges">
         <div class="strip-badge">
@@ -610,10 +613,10 @@
   <section>
     <div class="wrap why-grid">
       <div>
-        <span class="eyebrow">Why Choose NSD</span>
+        <span class="eyebrow">Why Choose NSD-Digital</span>
         <h2>A Partner in Your Growth.</h2>
         <p style="margin-top:16px;font-size:15px;max-width:42ch;">We combine industry expertise, modern design, and ongoing support to give you a website that does more than look good — it helps you win more business.</p>
-        <a href="#contact" class="btn btn-dark" style="margin-top:24px;">Book a Free Consultation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#contact" class="btn btn-dark" style="margin-top:24px;">Start Your Project <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
       <div class="why-points-wrap">
         <div class="why-point">
@@ -859,7 +862,7 @@
             <p>NSD completely transformed our online presence. We're getting more inquiries and higher quality leads than ever before.</p>
             <div class="testi-person">
               <span class="testi-avatar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></span>
-              <div><b>Matt R.</b><span>Niagara Builders</span></div>
+              <div><b>Sal I.</b><span>Niagara Builders</span></div>
             </div>
             <span class="testi-placeholder-tag">Placeholder quote — swap in a real review before launch</span>
           </div>
@@ -868,7 +871,7 @@
             <p>Professional, responsive, and easy to work with. Our new website showcases our work perfectly and has made a huge difference.</p>
             <div class="testi-person">
               <span class="testi-avatar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></span>
-              <div><b>Daniel T.</b><span>American Bat Removal</span></div>
+              <div><b>Dave D.</b><span>American Bat Removal</span></div>
             </div>
             <span class="testi-placeholder-tag">Placeholder quote — swap in a real review before launch</span>
           </div>
@@ -929,7 +932,7 @@
         <p class="closing-sub">Book a free consultation and let's create a website that helps you attract more clients and grow your business.</p>
       </div>
       <div>
-        <a href="#contact" class="btn btn-solid">Book a Free Consultation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#contact" class="btn btn-solid">Start Your Project <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         <p style="color:#7B82A3;font-size:12px;margin-top:12px;">No obligation. Just a conversation about your goals.</p>
       </div>
     </div>
@@ -1027,7 +1030,7 @@
 </footer>
 
 <div class="sticky-cta">
-  <a href="#contact" class="btn btn-solid">Book a Free Consultation</a>
+  <a href="#contact" class="btn btn-solid">Start Your Project</a>
 </div>
 
 <script>
